@@ -1,0 +1,14 @@
+<!-- res/menu/main_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorites"
+        android:icon="@drawable/heart_white"
+        android:title="Ver favoritos"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/logout"
+        android:title="Salir de la sesión"
+        app:showAsAction="always" />
+</menu>

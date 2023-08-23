@@ -1,0 +1,46 @@
+<!-- res/layout/toolbar_layout.xml -->
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar" >
+    <TextView
+        android:id="@+id/toolbarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_gravity="start" />
+
+    <!-- Iconos -->
+
+    <ImageView
+        android:id="@+id/action_logout"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/logout" />
+
+    <ImageView
+        android:id="@+id/action_news"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_news"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/action_favorite"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/heart_white" />
+
+</androidx.appcompat.widget.Toolbar>
